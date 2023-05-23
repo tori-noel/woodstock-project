@@ -21,6 +21,14 @@ header h1 {
   font-weight: 700;
   line-height: 1.5;
   margin: 0;
+  padding: 0;
+}
+header h2 {
+  font-size: 24px;
+  font-weight: 900px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0;
 }
 
 header h3 {
@@ -28,14 +36,7 @@ header h3 {
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
-}
-
-header h2 {
-  font-size: 24px;
-  font-weight: 900px;
-  line-height: 1.5;
-  letter-spacing: 5px;
-  margin: 0;
+  padding: 0;
 }
 
 header a {
@@ -50,4 +51,25 @@ header a {
   display: inline-block;
   padding: 16px 32px;
   border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 43px;
+  }
+  header h2 {
+    font-size: 12px;
+  }
+  header h3 {
+    font-size: 21px;
+  }
+
+  header a {
+    font-size: 7px;
+    padding: 8px 16px;
+    margin-top: 16px;
+  }
 }
