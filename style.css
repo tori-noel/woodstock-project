@@ -158,6 +158,11 @@ main p {
   background-color: #462cb3;
   text-decoration: none;
 }
+.btn:hover {
+  transition: ease-in-out;
+  color: #462cb3;
+  background-color: #f8f8f8;
+}
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
