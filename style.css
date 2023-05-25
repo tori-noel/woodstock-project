@@ -53,10 +53,11 @@ header a {
   border-radius: 5px;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
+
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -66,6 +67,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: aliceblue;
+  padding-left: 20px;
 }
 footer h3 {
   font-weight: 700;
@@ -91,16 +93,7 @@ footer a {
   color: aliceblue;
   opacity: 0.7;
 }
-.grid {
-  display: grid;
-  grid-gap: 64px;
-}
-.grid-3-columns {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-}
+
 main h2 {
   font-weight: 700;
   font-size: 16px;
@@ -117,6 +110,21 @@ main h3 {
   margin: 0;
   color: #272044;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
 main p {
   font-weight: 400;
   font-size: 16px;
@@ -124,11 +132,52 @@ main p {
   color: #272044;
   opacity: 0.7;
 }
-
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
-
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.grid-3-columns-equal {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.secondary-section {
+  background: #f8f8f8;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
