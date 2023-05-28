@@ -193,6 +193,34 @@ main p {
 .secondary-section {
   background: #f8f8f8;
 }
+.third-section {
+  background-image: linear-gradient(
+      rgba(150, 138, 200, 0.9),
+      rgba(181, 172, 219, 0.9)
+    ),
+    url(images/woodstock-waterfall.png);
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+table thead tr th {
+  padding: 20px;
+}
+table tbody tr td {
+  padding: 20px;
+}
+table a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+table a:hover {
+  transition: ease-in-out;
+  color: #462cb3;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
