@@ -204,12 +204,20 @@ main p {
   background-size: cover;
   text-align: center;
 }
+.third-section a {
+  opacity: 0.7;
+}
+.why-woodstock-section img {
+  filter: brightness(97%);
+}
 
 table thead tr th {
   padding: 20px;
+  font-size: 24px;
 }
 table tbody tr td {
   padding: 20px;
+  font-size: 24px;
 }
 table a {
   text-decoration: none;
@@ -252,5 +260,20 @@ table a:hover {
   }
   .embed {
     aspect-ratio: 16/9;
+  }
+  main h2 {
+    font-size: 16px;
+  }
+  main h3 {
+    font-size: 20px;
+  }
+
+  table thead tr th {
+    padding: 10px;
+    font-size: 16px;
+  }
+  table tbody tr td {
+    padding: 10px;
+    font-size: 16px;
   }
 }
